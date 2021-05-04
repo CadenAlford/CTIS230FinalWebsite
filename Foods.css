@@ -53,6 +53,15 @@ div.footbar{
 
 }
 
+div.buttonBox{
+    display: flex;
+}
+div.button{
+    width: calc(50%);
+    text-align: center;
+    margin-bottom: 5%;
+}
+
 div.foot{
     font-size: 1.1em;
     background-color: rgb(204,255,255);
