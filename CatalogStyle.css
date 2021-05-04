@@ -48,3 +48,34 @@ div.foot{
     width: calc(25%);
 }
 
+@media (orientation:landscape){
+    body{
+        flex-direction: row;
+    }
+
+    div.foot{
+        font-size: 0.75em;
+        width: 25%;
+    }
+}
+
+@media (orientation:portrait){
+    body{
+            flex-direction: column;
+            margin-left: 7%;
+            margin-right: 7%;
+        }
+    h1{
+            color:black;
+            margin-bottom: 1.0em;
+            width: 200px;
+        }
+
+    div.foot{
+            font-size: 0.4em;
+            width: 25%;
+        }
+    }
+
+
+

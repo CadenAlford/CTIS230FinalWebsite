@@ -67,3 +67,38 @@ div.foot{
     width: calc(33%);
 }
 
+@media (orientation:landscape){
+    body{
+        flex-direction: row;
+    }
+
+    div.foot{
+        font-size: 0.75em;
+        width: 25%;
+    }
+}
+
+@media (orientation:portrait){
+    body{
+        flex-direction: column;
+    }
+
+    h1{
+        font-size: 1.0em;
+    }
+   
+    div.foot{
+            font-size: 0.37em;
+            width: 25%;
+        }
+    
+
+    div.footbar{
+        background-color: rgb(204,255,255);
+    }
+
+    img#healthy{
+        width: 60%;
+    }
+
+}

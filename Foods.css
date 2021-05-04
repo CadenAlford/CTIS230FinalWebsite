@@ -69,3 +69,34 @@ div.foot{
     background-color: rgb(204,255,255);
     width: calc(25%);
 }
+
+@media (orientation:landscape){
+    body{
+        flex-direction: row;
+    }
+
+    div.foot{
+        font-size: 0.75em;
+        width: 25%;
+    }
+}
+
+@media (orientation:portrait){
+    body{
+        flex-direction: column;
+    }
+    div.foot{
+        font-size: 0.37em;
+        width: 25%;
+    }
+
+    
+}
+
+div.footbar{
+    background-color: rgb(204,255,255);
+}
+
+div.nav{
+    font-size: .9em;
+}
