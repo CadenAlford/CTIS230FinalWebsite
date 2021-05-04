@@ -25,12 +25,14 @@ h1.foodh{
     
 }
 img.images{
-    width:25%;
+    width:20%;
     margin-left: auto;
     margin-right: auto;
     display: block;
     border: 5px outset rgb(153,255,153);
     margin-bottom: 50px;
+    background-color:rgb(204,255,255);
+    
 }
 
 h3.iheads{
