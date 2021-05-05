@@ -89,7 +89,9 @@ div.foot{
         font-size: 0.37em;
         width: 25%;
     }
-
+   img.images{
+       width: 50%;
+   }
     
 }
 
