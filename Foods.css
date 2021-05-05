@@ -9,7 +9,7 @@ body{
 div.navbar{
     display: flex;
     border: 2px solid black;
-    background-color: rgb(204,255,255);
+    background-color: lavender;
 }
 div.nav{
     font-size: 1.1em;
@@ -31,17 +31,17 @@ img.images{
     display: block;
     border: 5px outset rgb(153,255,153);
     margin-bottom: 50px;
-    background-color:rgb(204,255,255);
+    background-color:lavender;
     
 }
 
 h3.iheads{
-    background-color:  rgb(204,255,255);
+    background-color:  lavender;
     width: fit-content;
 }
 
 h4.iheads{
-    background-color:  rgb(204,255,255);
+    background-color:  lavender;
     width: fit-content;
 }
 
