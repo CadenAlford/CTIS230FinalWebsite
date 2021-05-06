@@ -23,12 +23,13 @@ function makeMain(jsonObj){
     boxDiv = document.createElement('div');
     boxDiv.classList.add("foodBox");
 
+    track = 0;
 
     for (i=0; i < theFoods.length; i++) {
        
-        track = 0;
+      
 
-       
+       console.log(track);
 
        foodIDiv = document.createElement('div');
        foodImage = document.createElement('img');
@@ -61,6 +62,7 @@ function makeMain(jsonObj){
         mainC.appendChild(boxDiv)
         boxDiv = document.createElement('div');
         boxDiv.classList.add("foodBox");
+        console.log("working");
     }
        
        track++;
