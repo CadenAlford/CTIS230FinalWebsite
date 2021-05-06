@@ -1,9 +1,9 @@
 {
 "foods":[
     {
-        "name": "Brussels Sprouts",
         "foodimage": "images/Sprouts.jpg",
-        "alt":"Brussels Sprouts"
+        "alt":"Brussels Sprouts",
+        "link": "<a href='Sprouts.html'>Brussels Sprouts</a>"
 
     },
 
