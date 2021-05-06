@@ -70,19 +70,12 @@ function makeMain(jsonObj){
 
         boxDiv = document.createElement('div');
         boxDiv.classList.add("foodBox");
-        
+
        }
        
        mainC.appendChild(boxDiv);
        
 
-      /* if (track % 3 == 0){
-        mainC.appendChild(boxDiv)
-        boxDiv = document.createElement('div');
-        boxDiv.classList.add("foodBox");
-        console.log("working");
-    }
-       */
        track++;
 
 

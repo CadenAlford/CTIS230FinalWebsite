@@ -15,50 +15,34 @@
         "link": "Baked.html",
         "width": "300"
     },
-    {
-        "foodimage": "images/Sprouts.jpg",
-        "alt":"Brussels Sprouts",
-        "link": "Sprouts.html",
-        "width": "300"
 
+    {
+        "foodimage": "images/buffchick.jpg",
+        "alt": "Buffalo Chicken",
+        "link": "buffchick.html",
+        "width": "300"
+    },
+
+    {
+        "foodimage": "images/cabbage.jpg",
+        "alt": "Cabbage",
+        "link": "Cabbage.html",
+        "width": "300"
     },
 
     {
-        "foodimage": "images/Sprouts.jpg",
-        "alt":"Brussels Sprouts",
-        "link": "Sprouts.html",
+        "foodimage": "images/pizza.jpg",
+        "alt": "Buffalo Chicken Pizza",
+        "link": "Pizza.html",
         "width": "300"
-
     },
 
     {
-        "foodimage": "images/Baked.jpg",
-        "alt":"Baked Chicken",
-        "link": "Baked.html",
+        "foodimage": "images/sweetp.jpg",
+        "alt": "Sweet Potato Fries",
+        "link": "Sweetp.html",
         "width": "300"
-    },
-    {
-        "foodimage": "images/Sprouts.jpg",
-        "alt":"Brussels Sprouts",
-        "link": "Sprouts.html",
-        "width": "300"
-
-    },
-    
-    {
-        "foodimage": "images/Sprouts.jpg",
-        "alt":"Brussels Sprouts",
-        "link": "Sprouts.html",
-        "width": "300"
-
-    },
-
-    {
-        "foodimage": "images/Sprouts.jpg",
-        "alt":"Brussels Sprouts",
-        "link": "Sprouts.html",
-        "width": "300"
-
     }
+    
     ]
 }
