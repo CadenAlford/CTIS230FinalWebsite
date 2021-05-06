@@ -23,13 +23,15 @@ function makeMain(jsonObj){
     boxDiv = document.createElement('div');
     boxDiv.classList.add("foodBox");
 
-    track = 0;
+    track = 1;
 
     for (i=0; i < theFoods.length; i++) {
        
       
 
        console.log(track);
+
+       
 
        foodIDiv = document.createElement('div');
        foodImage = document.createElement('img');
@@ -58,13 +60,29 @@ function makeMain(jsonObj){
        foodIDiv.appendChild(foodP);
        boxDiv.appendChild(foodIDiv);
        
-       if (track % 3 == 0){
+       if((track % 3 != 0) && (track != 1)){
+        
+            mainC.removeChild(mainC.lastChild);
+
+       }
+
+       if(track % 3 == 0){
+
+        boxDiv = document.createElement('div');
+        boxDiv.classList.add("foodBox");
+        
+       }
+       
+       mainC.appendChild(boxDiv);
+       
+
+      /* if (track % 3 == 0){
         mainC.appendChild(boxDiv)
         boxDiv = document.createElement('div');
         boxDiv.classList.add("foodBox");
         console.log("working");
     }
-       
+       */
        track++;
 
 
