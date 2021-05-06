@@ -1,7 +1,7 @@
 {
 "foods":[
     {
-        "foodimage": "images/Sprouts.jpg",
+        "foodimage": "images/sprouts.jpg",
         "alt":"Brussels Sprouts",
         "link": "Sprouts.html",
         "width": "300"
@@ -10,7 +10,7 @@
 
 
     {
-        "foodimage": "images/Baked.jpg",
+        "foodimage": "images/baked.jpg",
         "alt":"Baked Chicken",
         "link": "Baked.html",
         "width": "300"
