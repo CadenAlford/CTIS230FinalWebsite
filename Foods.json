@@ -5,6 +5,15 @@
         "foodimage": "images/Sprouts.jpg",
         "alt":"Brussels Sprouts"
 
+    },
+
+
+    {
+
+        "name":"Baked Chicken",
+        "foodimage": "images/Baked.jpg",
+        "alt":"Baked Chicken"
+
     }
-]
+    ]
 }
