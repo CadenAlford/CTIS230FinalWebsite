@@ -3,17 +3,17 @@
     {
         "foodimage": "images/Sprouts.jpg",
         "alt":"Brussels Sprouts",
-        "link": "<a href='Sprouts.html'>Brussels Sprouts</a>"
+        "link": "test.html",
+        "width": "300"
 
     },
 
 
     {
-
-        "name":"Baked Chicken",
         "foodimage": "images/Baked.jpg",
-        "alt":"Baked Chicken"
-
+        "alt":"Baked Chicken",
+        "link": "Baked.html",
+        "width": "300"
     }
     ]
 }

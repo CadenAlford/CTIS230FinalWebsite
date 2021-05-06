@@ -2,42 +2,57 @@ mainC = document.getElementById("maincontent");
 
 requestURL = 'https://cadenalford.github.io/CTIS230FinalWebsite/Foods.json';
 
-request = new XMLHttpRequest();
+var request = new XMLHttpRequest();
 
 request.open('GET', requestURL);
 
-request.reponseType = 'json';
+request.responseType = 'json';
 
 request.send();
 
 request.onload =
 function(){
-    myFood = request.reponse;
+    myFood = request.response;
     console.log(myFood);
     makeMain(myFood);
 }
 
-/*function makeMain(jsonObj){
+function makeMain(jsonObj){
     theFoods = jsonObj["foods"];
 
     for (i=0; i < theFoods.length; i++) {
-
+       
+       
        foodIDiv = document.createElement('div');
        foodImage = document.createElement('img');
-       foodLink = document.createElement('p'); 
+       foodP = document.createElement('p'); 
+       foodLink = document.createElement('a');
        
        
+       foodIDiv.classList.add("fi");
+       foodImage.classList.add("images");
+
        foodImage.src = theFoods[i].foodimage;
        foodImage.alt = theFoods[i].alt;
-       foodLink.textContent = theFoods[i].link;
+       foodImage.style.width = theFoods[i].width;
 
+
+       foodLink.textContent = theFoods[i].alt;
+       foodLink.href = theFoods[i].link;
+
+       
+       
+
+
+       
        foodIDiv.appendChild(foodImage);
-       foodIDiv.appendChild(foodLink);
+       foodP.appendChild(foodLink); 
+       foodIDiv.appendChild(foodP);
        mainC.appendChild(foodIDiv);
-
+       
+       
        
        
 
     }
 }
-*/
